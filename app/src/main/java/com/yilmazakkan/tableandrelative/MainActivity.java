@@ -29,11 +29,11 @@ public class MainActivity extends AppCompatActivity {
     {
         switch (view.getId()) {
             case R.id.btn1:
-                bt2.setText( txt1.getText().toString() );
+                bt1.setText( bt2.getText().toString() );
                 break;
 
             case R.id.btn2:
-                bt1.setText( bt1.getText().toString() );
+                bt2.setText( txt1.getText().toString() );
                 break;
 
             case R.id.btn3:
